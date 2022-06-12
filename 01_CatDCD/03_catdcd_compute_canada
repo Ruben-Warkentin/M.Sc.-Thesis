@@ -1,0 +1,13 @@
+##if you want to reduce a dcd file before downloading it from compute canada you can install catdcd in your home directory in compute canada
+#1 catdcd can be downloaded here: https://www.ks.uiuc.edu/Development/MDTools/catdcd/
+#2 upload the catdcd tar file to your home directory in the cluster
+#3 extract the catdcd file
+    tar -xvf catdcd-4.0b.tar.gz
+#4 run catdcd using 
+    ./LINUXAMD64/bin/catdcd4.0/catdcd
+
+###########################################################################################
+
+#there is a way to setup catdcd so you can run it from scratch, but idk how to do that. email support@computecanada.ca and they can help you set it up
+#5 Using catdcd with an index file
+    catdcd -o output.dcd -i SLeX_0_107.ind SLeX__solvated_ionized_02.dcd
