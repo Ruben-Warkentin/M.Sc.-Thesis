@@ -143,7 +143,7 @@ draw cylinder {0 0 -26.5}  {0 0 27.9} radius 11.4 resolution 300
 # be considered a square mosaic of side 4.98*sqrt(2) = 7.04 ≈ 7 Å, havinge a 
 # surface area of 49 Å^2. The number of simulation boxes is thus 3896.5/49 ≈ 79 boxes.
 # The circumferance of the base of the cylinder at r = 11.4 Å is about 72 Å, whereas 
-# the height of the cylinder is about 43.9 Å. So we need ~1.32 as many "mosaics"
+# the height of the cylinder is about 54.4 Å. So we need ~1.32 as many "mosaics"
 # around the cylinder, as that along its height: 1.32*n*n ≈ 79, so n ≈ 8. 
 # This way, we devide the circumferance of the cylinder into 10 segments and
 # the height of the cylinder into 8 segments. This gives us 80 "mosaics".
